@@ -1,0 +1,8 @@
+Check git version with "git --version" on CMD
+
+Set Global Username and Email Address using config
+>>git config --global user.name "Vinay Agarwal"
+>>git config --global user.email "vinay.dbl1998@gmail.com"
+
+Check Global values with "list"
+>>git config --list
