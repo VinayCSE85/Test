@@ -6,3 +6,8 @@ Set Global Username and Email Address using config
 
 Check Global values with "list"
 >>git config --list
+
+For help
+>>git help <verb>
+or
+>>git <verb> --help
