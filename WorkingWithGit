@@ -11,3 +11,16 @@ For help
 >>git help <verb>
 or
 >>git <verb> --help
+
+To Start Tracking a Folder with Git
+First Navigate to the Specified Folder
+>>git init
+
+To see the status of the GitRepo
+>>git status
+#Shows which files have been committed and which have not
+
+To ignore certain files inside the directory which should not be tracked, we create the .gitignore file
+>>echo $null >> .gitignore
+Now add names of all files that should not be tracked in the text file created(Can use wildcards here like *.proj)
+
